@@ -2,7 +2,7 @@
 
 node('linux'){
 
-sh 'echo "Hello"
+sh 'echo "Hello"'
 
 parallel(
 "stream 1" : {
